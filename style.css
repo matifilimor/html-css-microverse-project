@@ -1,12 +1,18 @@
 #header{
     position: fixed;
     display: flex;
+    max-height: 20px;
+    max-width: 40px;
 }
 
 #navbar {
     flex: none;
 }
 
+#header-img {
+    max-height: 15px;
+    max-width: 30px;
+}
 
 
 @media only screen and (max-width: 600px) {
