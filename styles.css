@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 #header{
-    position: fixed;
     display: flex;
-    max-height: 20px;
-    max-width: 40px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #header-img {
